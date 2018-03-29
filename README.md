@@ -8,7 +8,7 @@ Introduction.
 
 Compiling.
 ===
-    gcc NTPDoser.cpp -o NTPDoser -lstdc++
+    gcc NTPDoser.cpp -o NTPDoser -lstdc++ -pthread
 Running NTP Doser.
 ===
 	sudo ./NTPDoser [target] [threads] [time]
